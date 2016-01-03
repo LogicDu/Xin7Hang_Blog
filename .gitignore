@@ -1,8 +1,12 @@
-/vendor
+
 /node_modules
 /.idea
 _ide_helper.php
 Homestead.yaml
 Homestead.json
 .env
+<<<<<<< 1eb63f19a0b595f16b64ee0bee7b853f070f1bf0
 。DS_Store
+=======
+。DS_Store
+>>>>>>> 由于国内使用Composer太费劲，代码里添加vendor

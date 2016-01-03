@@ -1,0 +1,18 @@
+{
+    "name": "larry666/laravel-5-markdown-editor",
+    "description": "Markdown editor with Laravel 5",
+    "authors": [
+        {
+            "name": "Larry",
+            "email": "larry_e@163.com"
+        }
+    ],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+      "psr-4": {
+        "Plugins\\MarkDownEditor\\":"src/"
+      }
+    }
+}
