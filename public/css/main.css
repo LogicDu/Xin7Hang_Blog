@@ -19,7 +19,7 @@ html,body{
     height:100%;
 }
 .not-full-height{
-    height:65%
+    height:70%
 }
 .left-main-area{
     color: #ffffff;
@@ -41,13 +41,20 @@ html,body{
 
 }
 .logo-area2{
-    margin:auto;
+    /*margin:auto;*/
     position: absolute;
     top:0;
     left:0;
     bottom:0;
     right:0;
 
+}
+.logo-area2 h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.logo-area2 h3{
+    font-size: 15px;
 }
 .media-body{
     word-break: break-all;

@@ -86,9 +86,9 @@
             $("#imageUpload").on('fileuploaded', function(event, data, previewId, index) {
                 var form = data.form, files = data.files, extra = data.extra,
                         response = data.response, reader = data.reader;
-                var imgInput = '<input type="hidden" name="image" id="image" value="' + response.url +'">'
-                //$("#image").val(response.url);
-                $("#imageUpload").after(imgInput);
+                //var imgInput = '<input type="hidden" name="image" id="image" value="' + response.url +'">'
+                $("#image").val(response.url);
+                //$("#imageUpload").after(imgInput);
             });
         });
     </script>

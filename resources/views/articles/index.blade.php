@@ -1,4 +1,4 @@
-@extends('app')
+@extends('adminpage')
 @section('content')
     <h1>Articles</h1>
 
